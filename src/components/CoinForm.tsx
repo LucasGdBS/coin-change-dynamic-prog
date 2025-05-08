@@ -50,7 +50,7 @@ export default function CoinForm() {
 
   return (
     <div className="p-4 flex flex-col justify-center items-center">
-      <div className="grid grid-cols-5 gap-2 w-full max-w-6xl">
+      <div className="grid grid-cols-[1fr_40px_1fr_40px_1fr] gap-2 w-full max-w-6xl">
         {/* Coluna 1 - Valor */}
         <div className="flex flex-col">
           <label htmlFor="value" className="text-sm font-medium mb-2">
